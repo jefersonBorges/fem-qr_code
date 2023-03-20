@@ -6,9 +6,9 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Links](#links)
+  - [👉Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [👨🏽‍💻Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -31,14 +31,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
-### Links
+### 👉 Links
 
 - Solution URL: [Github solution repository](https://github.com/jefersonBorges/fem-qr_code)
 - Live Site URL: [Github solution page](https://jefersonborges.github.io/fem-qr_code/)
 
 ## My process
 
-### Built with
+### 👨🏽‍💻 Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
