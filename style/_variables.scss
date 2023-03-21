@@ -2,6 +2,7 @@
 
 //family
 $font-primary: 'Outfit', sans-serif;
+$font-tertiary: sans-serif;
 
 //weights
 $font-weight-primary: 400;
@@ -10,6 +11,7 @@ $font-weight-secondary: 700;
 //sizes
 $font-size-primary: 15px;
 $font-size-secondary: 22px;
+$font-size-tertiary: 11px;
 
 
 //COLORS
@@ -18,6 +20,7 @@ $white: hsl(0, 0%, 100%);
 $light-gray: hsl(212, 45%, 89%);
 $grayish-blue: hsl(220, 15%, 55%);
 $dark-blue: hsl(218, 44%, 22%);
+$link-blue: hsl(228, 45%, 44%);
 
 
 //WIDTHS
@@ -28,4 +31,12 @@ $desktop-width: 1440px;
 $image-width: 270px;
 
 //MARGINS
-$margin-primary: 10px;
+$margin-small: 10px;
+
+//PADDINGS
+$padding-small: 10px;
+$padding-medium: 15px;
+
+//RADIUS
+$radius-small: 10px;
+$radius-medium: 20px;

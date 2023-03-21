@@ -8,64 +8,57 @@
 }
 
 body{
-  background-color: $light-gray;
-
-  position: relative;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   min-width: $mobile-width;
   max-width: $desktop-width;
   height: 100vh;
-
-}
-
-.container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  position: relative;
+  background-color: $light-gray;
+}
 
-  padding: 15px;
-  border-radius: 20px;
+.container{
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: $padding-medium;
+  border-radius: $radius-medium;
   background-color: $white;
 
   .qr-code{
     width: $image-width;
     height: $image-width;
-    border-radius: 10px;
-    margin-bottom: $margin-primary;
+    margin-bottom: $margin-small;
+    border-radius: $radius-small;
   }
 
   .text{
+    width: $image-width;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-    width: $image-width;
-    padding: 10px;
-
+    padding: $padding-small;
     font-family: $font-primary;
 
     .title{
+      margin-bottom: $margin-small;
+      text-align: center;
       color: $dark-blue;
       font-size: $font-size-secondary;
       font-weight: $font-weight-secondary;
-      text-align: center;
-      margin-bottom: $margin-primary;
     }
 
     .copy{
+      margin-bottom: $margin-small;
+      text-align: center;
       color: $grayish-blue;
       font-size: $font-size-primary;
       font-weight: $font-weight-primary;
-      text-align: center;
-      margin-bottom: $margin-primary;
     }
   }
 
@@ -74,13 +67,12 @@ body{
 .attribution {
   position: absolute;
   bottom: 0;
-  margin-bottom: 10px;
-
-  font-family: sans-serif;
-  font-size: 11px; 
+  margin-bottom: $margin-small;
   text-align: center;
+  font-family: $font-tertiary;
+  font-size: $font-size-tertiary; 
 
   a { 
-    color: hsl(228, 45%, 44%);
+    color: $link-blue;
   }
 }
