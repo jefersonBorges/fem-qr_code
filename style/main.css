@@ -5,18 +5,6 @@
   box-sizing: border-box;
 }
 
-.attribution {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 10px;
-  font-family: sans-serif;
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 body {
   background-color: hsl(212, 45%, 89%);
   position: relative;
@@ -41,9 +29,9 @@ body {
   background-color: hsl(0, 0%, 100%);
 }
 .container .qr-code {
-  border-radius: 10px;
   width: 270px;
   height: 270px;
+  border-radius: 10px;
   margin-bottom: 10px;
 }
 .container .text {
@@ -68,4 +56,16 @@ body {
   font-weight: 400;
   text-align: center;
   margin-bottom: 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }/*# sourceMappingURL=main.css.map */
