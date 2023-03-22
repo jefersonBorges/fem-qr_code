@@ -21,22 +21,20 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Screenshot](images/screenshot.jpeg)
+![Desktop Screenshot](images/screenshot.jpeg)
 
 ### 👉Links
 
 - Solution URL: [Github solution repository](https://github.com/jefersonBorges/fem-qr_code)
 - Live Site URL: [Github solution page](https://jefersonborges.github.io/fem-qr_code/)
 
-## My process
+## 🧠My process
 
 ### 👨🏽‍💻Built with
 
 - Semantic HTML5 markup
 - SASS
 - Flexbox
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
@@ -80,9 +78,3 @@ Use this section to outline areas that you want to continue focusing on in futur
 - GitHub - [jefersonBorges](https://github.com/jefersonBorges/jefersonBorges)
 - Frontend Mentor - [@jefersonBorges](https://www.frontendmentor.io/profile/jefersonBorges)
 - Linkedin - [Jeferson Borges Linkedin](https://www.linkedin.com/in/jeferson-borges-543b34229)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
