@@ -1,78 +1,105 @@
 @import 'fonts';
 @import 'variables';
 
-*{
+* {
+  //box-model
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
+  //positioning
+  position: relative;
+
+  //box-model
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-width: $mobile-width;
   max-width: $desktop-width;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
+
+  //visual
   background-color: $light-gray;
 }
 
-.container{
-  width: fit-content;
+.container {
+  //box-model
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: fit-content;
   padding: $padding-medium;
-  border-radius: $radius-medium;
-  background-color: $white;
 
-  .qr-code{
+  //visual
+  background-color: $white;
+  border-radius: $radius-medium;
+
+  .qr-code {
+    //box-model
     width: $image-width;
     height: $image-width;
     margin-bottom: $margin-small;
+
+    //visual
     border-radius: $radius-small;
   }
 
-  .text{
-    width: $image-width;
+  .text {
+    //box-model
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: $image-width;
     padding: $padding-small;
+
+    //typography
     font-family: $font-primary;
 
-    .title{
+    .title {
+      //box-model
       margin-bottom: $margin-small;
+      
+      //typography
       text-align: center;
       color: $dark-blue;
       font-size: $font-size-secondary;
       font-weight: $font-weight-secondary;
     }
 
-    .copy{
+    .copy {
+      //box-model
       margin-bottom: $margin-small;
-      text-align: center;
+
+      //typography
       color: $grayish-blue;
       font-size: $font-size-primary;
       font-weight: $font-weight-primary;
+      text-align: center;
     }
   }
 
 }
 
 .attribution {
+  //positioning
   position: absolute;
   bottom: 0;
+
+  //box-model
   margin-bottom: $margin-small;
-  text-align: center;
+
+  //typography
   font-family: $font-tertiary;
   font-size: $font-size-tertiary; 
+  text-align: center;
 
-  a { 
+  .link {
+    //typography 
     color: $link-blue;
   }
 }
